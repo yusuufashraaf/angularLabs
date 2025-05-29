@@ -1,20 +1,20 @@
+<section id="aboutMe">
 <div class="container py-5">
     <div class="row">
         <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
             <h3 class="fw-bold fs-1" >About Me</h3>
-            <p>I’m a full-stack web developer with over a year of hands-on experience building modern, scalable, and
-                user-friendly web applications. I specialize in PHP with a strong focus on Laravel for backend
-                development and use Angular to create dynamic, responsive frontends.</p>
-            <button class="btn btn-dark mb-3">Download CV</button>
+            <p>{{aboutMeText}}</p>
+            <button class="btn btn-dark mb-3" (click)="goToMyCv()">Download CV</button>
         </div>
         <div class="col-md-6 d-flex justify-content-center justify-content-md-end align-items-start">
             <ul class="list-group" style="min-width: 250px;">
-                <li class="list-group-item">Age: 26</li>
-                <li class="list-group-item">Residence: Egypt</li>
-                <li class="list-group-item">E-mail: yusuufashraaf&#64;icloud.com</li>
-                <li class="list-group-item">Phone: 01144677813</li>
-                <li class="list-group-item">Freelance: Available</li>
+                <li class="list-group-item">Age : {{personalInfo.age}}</li>
+                <li class="list-group-item">Residence: {{personalInfo.residence}}</li>
+                <li class="list-group-item">E-mail: {{personalInfo.email}}</li>
+                <li class="list-group-item">Phone: {{personalInfo.phone}}</li>
+                <li class="list-group-item">Freelance: {{personalInfo.freelance}}</li>
             </ul>
         </div>
     </div>
 </div>
+</section>

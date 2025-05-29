@@ -6,9 +6,10 @@ import { Profile } from './profile/profile';
 import { Skills } from './skills/skills';
 import { footer } from './footer/footer';
 import { AboutMe } from './about-me/about-me';
+
 @Component({
   selector: 'app-root',
-  imports: [Main,Navbar,footer,Profile,Skills,AboutMe],
+  imports: [Main,Navbar,footer,Profile,Skills,AboutMe,RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

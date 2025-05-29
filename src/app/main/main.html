@@ -1,13 +1,16 @@
-<div class="container-fluid backgroundColor text-white py-5"  >
-    <div class="container d-flex flex-column flex-md-row align-items-center">
-        <div class="col-md-6 text-center text-md-start">
-            <h5 class="text-uppercase">Hello I am</h5>
-            <h1 class="fw-bold text-dark nameSize">Youssef Ashraf</h1>
-            <p class="bio">Web Developer Using PHP.</p>
-        </div>
-        <div class="col-md-6 text-center mt-4 mt-md-0 position-relative">
-            <img src="assets/images/youssef.png" alt="Profile" class="rounded-circle img-thumbnail"
-                style="width: 400px; height: 400px; object-fit: cover;" />
+<section id="main">
+    <div class="container-fluid backgroundColor text-white ">
+        <div class="container d-flex flex-column flex-md-row align-items-center">
+            <div class="col-md-6 text-center text-md-start">
+                <h5 class="text-uppercase">Hello I am</h5>
+                <h1 class="fw-bold text-dark nameSize">{{name}}</h1>
+                <p class="bio">{{specialize}}</p>
+            </div>
+            <div class="col-md-6 text-center mt-4 mt-md-0 position-relative">
+                <img [src]="profileImage" alt="Profile" class="rounded-circle img-thumbnail"
+                    style="width: 400px; height: 400px; object-fit: cover;" />
+            </div>
         </div>
     </div>
-</div>
+
+</section>

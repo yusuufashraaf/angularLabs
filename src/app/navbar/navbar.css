@@ -1,3 +1,4 @@
+
 .manualStyle {
   background-color: var(--bg-color);
   padding: 10px;
@@ -15,5 +16,4 @@
 .fontColor .nav-link:hover{
 color: black;
   transition: color 0.3s ease;
-
 }

@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './main.css'
 })
 export class Main {
-  profileImage = 'assets/images/profile.jpeg';
+  name :string = "Youssef Ashraf";
+  specialize:string = "Web Developer Using PHP.";
+  profileImage = 'assets/images/youssef.png';
 }
