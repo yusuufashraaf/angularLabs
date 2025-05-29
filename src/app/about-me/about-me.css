@@ -1,0 +1,16 @@
+.list-group-item:nth-child(odd) {
+  background-color: #f0f0f0; 
+  border-radius: 15px; 
+  border: 1px solid black;      
+}
+
+.list-group-item:nth-child(even) {
+  border-radius: 0;          
+  background-color: white;   
+  border: 0px;
+}
+
+.list-group-item {
+  padding: 13px 15px; /* Adjust internal padding */
+}
+

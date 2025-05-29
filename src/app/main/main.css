@@ -1,0 +1,11 @@
+.backgroundColor{
+    background-color: var(--bg-color);
+}
+
+.nameSize{
+    font-size: 4rem;
+}
+
+.bio{
+    font-size: 1.5rem;
+}
