@@ -1,0 +1,8 @@
+.backgroundColor{
+    background-color: var(--bg-color);
+}
+
+.fontColor{
+    color: var(--font-color);
+}
+
