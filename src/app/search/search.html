@@ -1,0 +1,6 @@
+<div class="d-flex justify-content-center py-2">
+  <div class="input-group" style="max-width: 400px; width: 100%;">
+    <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchValue" (keyup.enter)="onSearch()" />
+    <button class="btn btn-primary" type="button" (click)="onSearch()">Search</button>
+  </div>
+</div>

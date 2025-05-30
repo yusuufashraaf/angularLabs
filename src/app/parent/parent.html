@@ -1,0 +1,7 @@
+<div class="d-flex justify-content-center align-items-start min-vh-100 px-5">
+    <div class="bg-light border border-secondary rounded shadow-sm p-4 userDiv">
+        <h1 class="text-dark text-center mb-4">User</h1>
+        <app-search (emailSearch)="onSearch($event)"></app-search>
+        <app-users [users]="filteredUsers"></app-users>
+    </div>
+</div>

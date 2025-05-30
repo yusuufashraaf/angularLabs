@@ -1,0 +1,23 @@
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 mb-4" *ngFor="let user of users">
+            <div class="card text-center shadow-sm">
+                <img [src]="user.photo" alt="User Photo" class="card-img-top img-fluid user-photo"
+                    >
+                <div class="card-body">
+                    <div class="d-flex justify-content-center align-items-center mb-2">
+                        <span class="rounded-circle me-2 d-inline-block" [ngStyle]="{
+                'width': '15px', 
+                'height': '15px', 
+                'background-color': user.verified === 'true' ? 'green' : 'red'
+            }">
+                        </span>
+                    </div>
+                    <h5 class="card-title">{{ user.username | titlecase }}</h5>
+                    <p class="card-text mb-1"><strong>Email:</strong> {{ user.email }}</p>
+                    <p class="card-text"><strong>Phone:</strong> {{ user.phone }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
