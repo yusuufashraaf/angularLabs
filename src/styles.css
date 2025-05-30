@@ -2,3 +2,9 @@
   --font-color: #ffffff;
   --bg-color: #074643;
 }
+
+section {
+  position: relative;
+  padding-top: 70px;      
+  margin-top: -70px;     
+}
