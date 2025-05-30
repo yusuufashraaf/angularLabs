@@ -6,3 +6,8 @@
     color: var(--font-color);
 }
 
+.progress-bar{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
