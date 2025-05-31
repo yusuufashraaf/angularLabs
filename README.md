@@ -10,4 +10,4 @@ Each branch in this repository represents a separate lab day, starting from `day
 
 - `day-0`: First lab **TypeScript lab**
 - `day-1`: Second lab **Portfolio**
-  
+- `day-2`: Third lab **User list**
